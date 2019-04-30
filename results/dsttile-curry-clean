@@ -1,0 +1,46 @@
+uptime
+ 20:46:27 up 17 days,  3:05,  3 users,  load average: 0.67, 0.77, 0.75
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kwu2     tty7     :0               Fri14   17days  3:22   0.19s /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+nfatima  tty8     :1               17:51   17days 15:11   0.14s /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+dotwani  pts/0    165.82.168.52    20:45    3.00s  0.14s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DLARGE_DATASET
+======
+10.51 GFLOPS
+8.90 GFLOPS
+7.85 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+8.23 GFLOPS
+8.42 GFLOPS
+7.85 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+8.16 GFLOPS
+7.63 GFLOPS
+8.35 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DLARGE_DATASET
+======
+7.68 GFLOPS
+9.03 GFLOPS
+9.51 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+7.34 GFLOPS
+7.18 GFLOPS
+8.39 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.78 GFLOPS
+7.33 GFLOPS
+8.18 GFLOPS
+==================

@@ -1,0 +1,169 @@
+uptime
+ 08:26:41 up 39 days, 17:05,  2 users,  load average: 0.64, 1.20, 0.64
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/8    165.82.202.141   08:06    1.00s  0.52s  0.02s sshd: dotwani [priv]
+spark5   pts/11   165.82.168.24    00:50    7:35m  0.60s  0.26s -bash
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+1.31 GFLOPS
+1.59 GFLOPS
+1.66 GFLOPS
+1.79 GFLOPS
+3.14 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DLARGE_DATASET
+======
+9.58 GFLOPS
+10.04 GFLOPS
+10.16 GFLOPS
+10.58 GFLOPS
+10.62 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+13.68 GFLOPS
+13.76 GFLOPS
+14.15 GFLOPS
+14.27 GFLOPS
+14.73 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+13.45 GFLOPS
+13.53 GFLOPS
+14.39 GFLOPS
+14.45 GFLOPS
+14.63 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+14.11 GFLOPS
+13.34 GFLOPS
+14.54 GFLOPS
+14.10 GFLOPS
+13.80 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+1.85 GFLOPS
+2.58 GFLOPS
+3.77 GFLOPS
+3.98 GFLOPS
+4.07 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DLARGE_DATASET
+======
+13.48 GFLOPS
+14.45 GFLOPS
+12.75 GFLOPS
+10.76 GFLOPS
+14.51 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+17.46 GFLOPS
+17.42 GFLOPS
+17.92 GFLOPS
+17.96 GFLOPS
+17.18 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+17.26 GFLOPS
+16.79 GFLOPS
+16.79 GFLOPS
+16.93 GFLOPS
+17.21 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+16.02 GFLOPS
+16.27 GFLOPS
+16.34 GFLOPS
+15.32 GFLOPS
+16.29 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+1.28 GFLOPS
+1.34 GFLOPS
+1.78 GFLOPS
+1.58 GFLOPS
+2.39 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DLARGE_DATASET
+======
+13.60 GFLOPS
+14.90 GFLOPS
+15.65 GFLOPS
+14.58 GFLOPS
+15.84 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+19.60 GFLOPS
+18.21 GFLOPS
+20.09 GFLOPS
+19.92 GFLOPS
+19.23 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+19.50 GFLOPS
+19.14 GFLOPS
+22.02 GFLOPS
+20.32 GFLOPS
+18.32 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+22.20 GFLOPS
+19.61 GFLOPS
+21.18 GFLOPS
+20.74 GFLOPS
+19.71 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+1.63 GFLOPS
+2.09 GFLOPS
+2.36 GFLOPS
+3.04 GFLOPS
+5.67 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DLARGE_DATASET
+======
+15.07 GFLOPS
+18.83 GFLOPS
+16.36 GFLOPS
+17.19 GFLOPS
+14.73 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+18.73 GFLOPS
+21.54 GFLOPS
+23.04 GFLOPS
+21.59 GFLOPS
+22.05 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+24.07 GFLOPS
+25.23 GFLOPS
+23.86 GFLOPS
+26.01 GFLOPS
+26.02 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+25.06 GFLOPS
+24.11 GFLOPS
+23.33 GFLOPS
+24.35 GFLOPS
+25.13 GFLOPS
+==================

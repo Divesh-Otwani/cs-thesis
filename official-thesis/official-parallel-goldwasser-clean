@@ -1,0 +1,170 @@
+uptime
+ 08:30:32 up 23 days, 18:35,  3 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.202.141   06:13    1:21m  0.08s  0.00s tmux
+dotwani  pts/1    tmux(3767).%0    06:14    1:21m  0.42s  0.23s vi c-codes/syr2k.plutotileparallel.c
+dotwani  pts/2    165.82.202.141   08:12    0.00s  0.22s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+3.44 GFLOPS
+3.44 GFLOPS
+3.45 GFLOPS
+3.43 GFLOPS
+3.35 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DLARGE_DATASET
+======
+7.05 GFLOPS
+7.15 GFLOPS
+7.01 GFLOPS
+7.03 GFLOPS
+7.06 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+6.83 GFLOPS
+6.79 GFLOPS
+6.80 GFLOPS
+6.82 GFLOPS
+6.77 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+6.86 GFLOPS
+6.82 GFLOPS
+6.79 GFLOPS
+6.82 GFLOPS
+6.85 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+6.77 GFLOPS
+6.73 GFLOPS
+6.78 GFLOPS
+6.80 GFLOPS
+6.77 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+10.53 GFLOPS
+4.63 GFLOPS
+8.21 GFLOPS
+10.29 GFLOPS
+10.58 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DLARGE_DATASET
+======
+8.24 GFLOPS
+8.08 GFLOPS
+8.21 GFLOPS
+8.17 GFLOPS
+8.15 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+6.39 GFLOPS
+6.32 GFLOPS
+6.34 GFLOPS
+6.34 GFLOPS
+5.84 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+6.05 GFLOPS
+6.18 GFLOPS
+6.26 GFLOPS
+6.31 GFLOPS
+6.23 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+6.01 GFLOPS
+6.02 GFLOPS
+6.09 GFLOPS
+6.05 GFLOPS
+6.12 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+8.99 GFLOPS
+8.99 GFLOPS
+8.99 GFLOPS
+8.99 GFLOPS
+8.97 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DLARGE_DATASET
+======
+7.47 GFLOPS
+7.11 GFLOPS
+7.10 GFLOPS
+7.12 GFLOPS
+7.12 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+7.01 GFLOPS
+7.23 GFLOPS
+7.40 GFLOPS
+7.51 GFLOPS
+7.61 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+7.47 GFLOPS
+7.36 GFLOPS
+7.29 GFLOPS
+7.33 GFLOPS
+6.79 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+6.71 GFLOPS
+7.06 GFLOPS
+7.04 GFLOPS
+6.64 GFLOPS
+6.89 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+13.63 GFLOPS
+13.68 GFLOPS
+13.68 GFLOPS
+13.63 GFLOPS
+13.60 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DLARGE_DATASET
+======
+12.52 GFLOPS
+12.50 GFLOPS
+11.60 GFLOPS
+11.32 GFLOPS
+11.19 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+10.62 GFLOPS
+10.77 GFLOPS
+10.84 GFLOPS
+10.54 GFLOPS
+10.07 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+10.02 GFLOPS
+10.42 GFLOPS
+10.52 GFLOPS
+9.84 GFLOPS
+9.59 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+9.95 GFLOPS
+10.37 GFLOPS
+10.52 GFLOPS
+9.76 GFLOPS
+8.81 GFLOPS
+==================

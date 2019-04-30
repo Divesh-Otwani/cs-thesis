@@ -1,0 +1,80 @@
+uptime
+ 11:54:28 up 8 days, 21:59,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.168.32    11:54    4.00s  0.08s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DLARGE_DATASET
+======
+4.85 GFLOPS
+4.77 GFLOPS
+4.78 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+4.73 GFLOPS
+4.73 GFLOPS
+4.71 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+4.71 GFLOPS
+4.65 GFLOPS
+4.71 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.71 GFLOPS
+5.71 GFLOPS
+5.71 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.68 GFLOPS
+5.69 GFLOPS
+5.68 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+5.71 GFLOPS
+5.71 GFLOPS
+5.72 GFLOPS
+======
+Compiled C Version c-codes/syr2k.swap.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.03 GFLOPS
+4.95 GFLOPS
+4.95 GFLOPS
+======
+Compiled C Version c-codes/syr2k.swap.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+4.67 GFLOPS
+4.66 GFLOPS
+4.73 GFLOPS
+======
+Compiled C Version c-codes/syr2k.swap.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+4.70 GFLOPS
+4.70 GFLOPS
+4.66 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.79 GFLOPS
+5.85 GFLOPS
+5.76 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.08 GFLOPS
+5.13 GFLOPS
+5.09 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+4.90 GFLOPS
+4.84 GFLOPS
+4.85 GFLOPS
+==================

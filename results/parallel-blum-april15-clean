@@ -1,0 +1,44 @@
+uptime
+ 12:17:48 up 1 day, 16:44,  1 user,  load average: 0.60, 0.25, 0.13
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.202.222   12:14    4.00s  0.18s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DLARGE_DATASET
+======
+8.68 GFLOPS
+8.69 GFLOPS
+8.68 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+8.18 GFLOPS
+8.18 GFLOPS
+8.17 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.79 GFLOPS
+7.79 GFLOPS
+7.79 GFLOPS
+======
+Compiled C Version c-codes/syr2k.diveshptilepar.c on size PLY_SIZE=-DLARGE_DATASET
+======
+14.60 GFLOPS
+14.60 GFLOPS
+14.63 GFLOPS
+======
+Compiled C Version c-codes/syr2k.diveshptilepar.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+13.68 GFLOPS
+13.69 GFLOPS
+13.70 GFLOPS
+======
+Compiled C Version c-codes/syr2k.diveshptilepar.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+13.75 GFLOPS
+13.73 GFLOPS
+13.74 GFLOPS
+==================

@@ -1,0 +1,23 @@
+uptime
+ 10:19:42 up 6 days, 23:33,  4 users,  load average: 0.61, 0.19, 0.13
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+divesh   tty7     :0               08:39    6days 41.46s  0.25s /usr/bin/lxsession -s Lubuntu -e LXDE
+divesh   pts/1    tmux(18113).%5   09:28   14.00s  1.37s  1.37s -bash
+divesh   pts/3    tmux(18113).%2   09:19    2:24   1.05s  0.59s nvim syr2k.limlam.c
+divesh   pts/2    tmux(18113).%9   10:08    6.00s  0.25s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.limlam.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+2.31 GFLOPS
+2.32 GFLOPS
+2.32 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+2.32 GFLOPS
+2.32 GFLOPS
+2.30 GFLOPS
+==================

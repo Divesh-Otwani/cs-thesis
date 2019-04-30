@@ -1,0 +1,17 @@
+// Counters must be delimited with ',' including the last one.
+// C/C++ comments are allowed.
+// Both native and standard PAPI events are supported.
+"PAPI_TOT_CYC",  // can also count branches; some systems count FMA's but not keller :-(
+
+// "PAPI_MEM_RCY", //	NOT ON KELLER Cycles Stalled Waiting for memory Reads
+// "PAPI_MEM_SCY", //	NOT ON KELLER Cycles Stalled Waiting for memory accesses
+"PAPI_MEM_WCY", // " for memory writes
+
+"PAPI_L3_TCM",
+"PAPI_L2_DCM",
+"PAPI_L1_DCM",
+// "L1D:REPL",  // not available on keller, but we do have PAPI_L[12]_[DIT]CM, and PAPI_L3_TCM, and PAPI_L[12]_(ST|LD)M, and various hits
+
+"PAPI_BR_UCN",	// unconditional branches
+"PAPI_BR_CN",	// conditional branches
+"PAPI_BR_MSP",	// mispredictions

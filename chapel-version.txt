@@ -1,0 +1,3 @@
+I am using chapel version 1.19.0 from the docker pull image chapel/chapel:1.19.0
+
+

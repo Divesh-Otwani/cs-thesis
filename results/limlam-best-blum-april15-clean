@@ -1,0 +1,20 @@
+uptime
+ 10:44:18 up 1 day, 15:10,  1 user,  load average: 0.04, 0.01, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.202.222   10:38    0.00s  0.21s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.limlam.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+7.35 GFLOPS
+7.28 GFLOPS
+7.28 GFLOPS
+======
+Compiled C Version c-codes/syr2k.limlam.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+6.90 GFLOPS
+6.94 GFLOPS
+6.95 GFLOPS
+==================

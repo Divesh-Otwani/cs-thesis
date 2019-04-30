@@ -1,0 +1,408 @@
+uptime
+ 23:16:13 up 5 days,  9:21,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.202.222   23:15    5.00s  0.13s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.backup.c on size PLY_SIZE=-DSMALL_DATASET
+======
+6.78 GFLOPS
+6.78 GFLOPS
+6.79 GFLOPS
+6.79 GFLOPS
+======
+Compiled C Version c-codes/syr2k.backup.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+5.67 GFLOPS
+5.72 GFLOPS
+5.67 GFLOPS
+5.67 GFLOPS
+======
+Compiled C Version c-codes/syr2k.backup.c on size PLY_SIZE=-DLARGE_DATASET
+======
+1.00 GFLOPS
+1.06 GFLOPS
+1.02 GFLOPS
+1.07 GFLOPS
+======
+Compiled C Version c-codes/syr2k.backup.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+0.70 GFLOPS
+0.70 GFLOPS
+0.70 GFLOPS
+0.70 GFLOPS
+======
+Compiled C Version c-codes/syr2k.backup.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+0.63 GFLOPS
+0.63 GFLOPS
+0.63 GFLOPS
+0.63 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DSMALL_DATASET
+======
+5.45 GFLOPS
+5.45 GFLOPS
+5.45 GFLOPS
+5.40 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+4.96 GFLOPS
+4.96 GFLOPS
+4.96 GFLOPS
+3.33 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DLARGE_DATASET
+======
+4.85 GFLOPS
+4.86 GFLOPS
+4.79 GFLOPS
+4.85 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+4.65 GFLOPS
+4.65 GFLOPS
+4.73 GFLOPS
+4.73 GFLOPS
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+4.63 GFLOPS
+4.63 GFLOPS
+4.71 GFLOPS
+4.64 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DSMALL_DATASET
+======
+5.40 GFLOPS
+5.43 GFLOPS
+5.42 GFLOPS
+5.30 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+5.46 GFLOPS
+5.46 GFLOPS
+5.45 GFLOPS
+5.46 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.65 GFLOPS
+5.71 GFLOPS
+5.65 GFLOPS
+5.64 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.29 GFLOPS
+5.19 GFLOPS
+5.53 GFLOPS
+5.69 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotile.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+5.61 GFLOPS
+5.61 GFLOPS
+5.63 GFLOPS
+5.59 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DSMALL_DATASET
+======
+6.11 GFLOPS
+6.48 GFLOPS
+6.51 GFLOPS
+6.51 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+9.00 GFLOPS
+8.97 GFLOPS
+9.00 GFLOPS
+9.01 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DLARGE_DATASET
+======
+8.09 GFLOPS
+7.99 GFLOPS
+7.83 GFLOPS
+7.84 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+7.43 GFLOPS
+7.56 GFLOPS
+7.63 GFLOPS
+7.64 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.10 GFLOPS
+6.63 GFLOPS
+6.64 GFLOPS
+7.04 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DSMALL_DATASET
+======
+7.16 GFLOPS
+6.94 GFLOPS
+7.25 GFLOPS
+7.21 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+7.70 GFLOPS
+7.47 GFLOPS
+7.83 GFLOPS
+7.66 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.77 GFLOPS
+5.86 GFLOPS
+5.85 GFLOPS
+5.85 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.12 GFLOPS
+5.12 GFLOPS
+5.07 GFLOPS
+5.08 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+4.90 GFLOPS
+4.91 GFLOPS
+4.86 GFLOPS
+4.91 GFLOPS
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'OriginalArr') on size hsmall
+======
+GFLOPS rate: 0.219512
+GFLOPS rate: 0.324324
+GFLOPS rate: 0.642857
+GFLOPS rate: 0.9
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'OriginalArr') on size medium
+======
+GFLOPS rate: 1.90996
+GFLOPS rate: 3.22228
+GFLOPS rate: 3.20148
+GFLOPS rate: 2.9894
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'OriginalArr') on size large
+======
+GFLOPS rate: 1.03542
+GFLOPS rate: 0.953837
+GFLOPS rate: 0.974114
+GFLOPS rate: 0.952727
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'OriginalArr') on size hlarge
+======
+GFLOPS rate: 0.683115
+GFLOPS rate: 0.683574
+GFLOPS rate: 0.685094
+GFLOPS rate: 0.683796
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'OriginalArr') on size hxlarge
+======
+GFLOPS rate: 0.61868
+GFLOPS rate: 0.62022
+GFLOPS rate: 0.618756
+GFLOPS rate: 0.618192
+============
+============
+======
+Compiled Chpl Version ('IterChoice.pluto', 'OriginalArr') on size hsmall
+======
+GFLOPS rate: 0.266667
+GFLOPS rate: 0.529412
+GFLOPS rate: 1.09091
+GFLOPS rate: 1.09091
+============
+============
+======
+Compiled Chpl Version ('IterChoice.pluto', 'OriginalArr') on size medium
+======
+GFLOPS rate: 1.76458
+GFLOPS rate: 3.82498
+GFLOPS rate: 3.82371
+GFLOPS rate: 3.83639
+============
+============
+======
+Compiled Chpl Version ('IterChoice.pluto', 'OriginalArr') on size large
+======
+GFLOPS rate: 4.44935
+GFLOPS rate: 4.45425
+GFLOPS rate: 4.46925
+GFLOPS rate: 4.44461
+============
+============
+======
+Compiled Chpl Version ('IterChoice.pluto', 'OriginalArr') on size hlarge
+======
+GFLOPS rate: 4.40062
+GFLOPS rate: 4.40614
+GFLOPS rate: 4.39091
+GFLOPS rate: 4.39196
+============
+============
+======
+Compiled Chpl Version ('IterChoice.pluto', 'OriginalArr') on size hxlarge
+======
+GFLOPS rate: 4.41197
+GFLOPS rate: 4.39525
+GFLOPS rate: 4.40258
+GFLOPS rate: 4.39669
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptile', 'OriginalArr') on size hsmall
+======
+GFLOPS rate: 0.262774
+GFLOPS rate: 0.654545
+GFLOPS rate: 1.02857
+GFLOPS rate: 1.09091
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptile', 'OriginalArr') on size medium
+======
+GFLOPS rate: 1.06346
+GFLOPS rate: 1.89681
+GFLOPS rate: 1.90253
+GFLOPS rate: 1.88343
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptile', 'OriginalArr') on size large
+======
+GFLOPS rate: 2.10475
+GFLOPS rate: 2.10455
+GFLOPS rate: 2.10947
+GFLOPS rate: 2.1093
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptile', 'OriginalArr') on size hlarge
+======
+GFLOPS rate: 2.13187
+GFLOPS rate: 2.13102
+GFLOPS rate: 2.13219
+GFLOPS rate: 2.13139
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptile', 'OriginalArr') on size hxlarge
+======
+GFLOPS rate: 2.13252
+GFLOPS rate: 2.1318
+GFLOPS rate: 2.13269
+GFLOPS rate: 2.13317
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptilepar', 'OriginalArr') on size hsmall
+======
+GFLOPS rate: 0.251748
+GFLOPS rate: 0.378947
+GFLOPS rate: 0.765957
+GFLOPS rate: 1.02857
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptilepar', 'OriginalArr') on size medium
+======
+GFLOPS rate: 1.88261
+GFLOPS rate: 4.88995
+GFLOPS rate: 4.87142
+GFLOPS rate: 4.89616
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptilepar', 'OriginalArr') on size large
+======
+GFLOPS rate: 4.96892
+GFLOPS rate: 4.97779
+GFLOPS rate: 4.93986
+GFLOPS rate: 4.97789
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptilepar', 'OriginalArr') on size hlarge
+======
+GFLOPS rate: 4.74544
+GFLOPS rate: 4.74927
+GFLOPS rate: 4.74784
+GFLOPS rate: 4.74707
+============
+============
+======
+Compiled Chpl Version ('IterChoice.ptilepar', 'OriginalArr') on size hxlarge
+======
+GFLOPS rate: 4.77129
+GFLOPS rate: 4.7698
+GFLOPS rate: 4.38859
+GFLOPS rate: 3.90959
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'TransposedArr') on size hsmall
+======
+GFLOPS rate: 0.125436
+GFLOPS rate: 0.125436
+GFLOPS rate: 0.285714
+GFLOPS rate: 0.507042
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'TransposedArr') on size medium
+======
+GFLOPS rate: 2.33933
+GFLOPS rate: 5.62281
+GFLOPS rate: 5.60556
+GFLOPS rate: 5.58931
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'TransposedArr') on size large
+======
+GFLOPS rate: 5.54292
+GFLOPS rate: 5.57508
+GFLOPS rate: 5.59277
+GFLOPS rate: 5.5714
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'TransposedArr') on size hlarge
+======
+GFLOPS rate: 4.95841
+GFLOPS rate: 4.93106
+GFLOPS rate: 4.94777
+GFLOPS rate: 4.94519
+============
+============
+======
+Compiled Chpl Version ('IterChoice.original', 'TransposedArr') on size hxlarge
+======
+GFLOPS rate: 4.84248
+GFLOPS rate: 4.84085
+GFLOPS rate: 4.83857
+GFLOPS rate: 4.8385
+==================

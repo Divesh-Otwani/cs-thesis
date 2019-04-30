@@ -1,0 +1,66 @@
+uptime
+ 20:02:51 up 23 days,  6:07,  5 users,  load average: 0.39, 0.21, 0.08
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/0    165.82.202.141   19:30    3.00s  0.12s  0.00s tmux
+dotwani  pts/1    tmux(21834).%0   19:31    3:12   0.36s  0.36s -bash
+dotwani  pts/2    tmux(21834).%1   19:31    4:48   0.60s  0.42s vi syr2k.timetile.c
+dotwani  pts/3    tmux(21834).%2   19:33    3:18   1.87s  1.73s vi syr2k.dstblock-timetile.c
+dotwani  pts/4    tmux(21834).%3   19:51    3.00s  0.15s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DLARGE_DATASET
+======
+10.11 GFLOPS
+10.11 GFLOPS
+10.02 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+8.65 GFLOPS
+8.63 GFLOPS
+8.60 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.76 GFLOPS
+7.96 GFLOPS
+7.71 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-timetile.c on size PLY_SIZE=-DLARGE_DATASET
+======
+10.05 GFLOPS
+10.25 GFLOPS
+10.15 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-timetile.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+8.59 GFLOPS
+8.52 GFLOPS
+8.54 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-timetile.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.92 GFLOPS
+7.83 GFLOPS
+7.80 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DLARGE_DATASET
+======
+8.06 GFLOPS
+8.07 GFLOPS
+8.07 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+7.62 GFLOPS
+7.63 GFLOPS
+7.63 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+7.27 GFLOPS
+7.28 GFLOPS
+7.27 GFLOPS
+==================

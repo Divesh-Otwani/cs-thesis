@@ -1,0 +1,33 @@
+uptime
+ 09:09:25 up 6 days, 22:23,  2 users,  load average: 0.20, 0.13, 0.31
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+divesh   tty7     :0               08:39    6days  8.89s  0.23s /usr/bin/lxsession -s Lubuntu -e LXDE
+divesh   pts/1    tmux(18113).%0   09:08    5.00s  0.18s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+2.28 GFLOPS
+2.28 GFLOPS
+2.28 GFLOPS
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+2.30 GFLOPS
+2.30 GFLOPS
+2.29 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+1.17 GFLOPS
+1.16 GFLOPS
+1.16 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+1.25 GFLOPS
+1.25 GFLOPS
+1.25 GFLOPS
+==================

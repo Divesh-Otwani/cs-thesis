@@ -1,0 +1,44 @@
+uptime
+ 21:26:26 up 21 days,  8:36,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/8    165.82.168.52    21:25    2.00s  0.20s  0.00s w
+uptime over
+Starting timing results. 
+==================
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DLARGE_DATASET
+======
+6.37 GFLOPS
+6.29 GFLOPS
+6.36 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.24 GFLOPS
+5.21 GFLOPS
+5.21 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock-tile.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+5.23 GFLOPS
+5.24 GFLOPS
+5.24 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DLARGE_DATASET
+======
+5.52 GFLOPS
+5.56 GFLOPS
+5.64 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+5.06 GFLOPS
+5.11 GFLOPS
+5.10 GFLOPS
+======
+Compiled C Version c-codes/syr2k.dstblock3.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+5.01 GFLOPS
+5.00 GFLOPS
+4.98 GFLOPS
+==================

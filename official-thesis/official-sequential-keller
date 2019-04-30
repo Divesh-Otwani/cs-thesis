@@ -1,0 +1,130 @@
+uptime
+ 08:10:57 up 39 days, 16:50,  2 users,  load average: 0.16, 0.22, 0.10
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/8    165.82.202.141   08:06    1.00s  0.35s  0.02s sshd: dotwani [priv]
+spark5   pts/11   165.82.168.24    00:50    7:19m  0.60s  0.26s -bash
+uptime over
+Starting timing results. 
+
+
+==================
+
+
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DMEDIUM_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+
+
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+1.98 GFLOPS
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+2.33 GFLOPS
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+2.59 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DLARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+3.89 GFLOPS
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+5.04 GFLOPS
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+4.09 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DHAVERLARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+4.25 GFLOPS
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+3.82 GFLOPS
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+4.21 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DEXTRALARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.pluto.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+4.12 GFLOPS
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+3.89 GFLOPS
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+4.07 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DMEDIUM_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DMEDIUM_DATASET
+======
+
+
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+2.75 GFLOPS
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+3.18 GFLOPS
+Starting syr2k.c, n=     240, m=     200, Footprint    1.172 M,  Source FP ops=  0.0347 G
+3.72 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DLARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+4.26 GFLOPS
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+4.93 GFLOPS
+Starting syr2k.c, n=    1200, m=    1000, Footprint     29.3 M,  Source FP ops=   4.324 G
+5.29 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DHAVERLARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+4.34 GFLOPS
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+4.37 GFLOPS
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+4.03 GFLOPS
+gcc -o syr2k syr2k.c -O3 -DPOLYBENCH_USE_C99_PROTO -DPOLYFORD_VERBOSE  -DEXTRALARGE_DATASET -DPOLYBENCH_GFLOPS -fopenmp -I. -I./utilities ./utilities/polybench.c  -lm 
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock.c on size PLY_SIZE=-DEXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+3.94 GFLOPS
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+4.17 GFLOPS
+Starting syr2k.c, n=    2600, m=    2000, Footprint    130.9 M,  Source FP ops=   40.58 G
+3.96 GFLOPS
+
+
+==================
+Ended timing results. 
+
+
