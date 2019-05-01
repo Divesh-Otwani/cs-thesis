@@ -94,7 +94,7 @@ Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXT
 
 Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
 On thread 0:
-PAPI_TOT_CYC=  81 366  423  108 
+PAPI_TOT_CYC=81366423108 
 PAPI_MEM_WCY=28344 
 PAPI_L3_TCM =70995708 
 PAPI_L2_DCM =149416070 
@@ -124,7 +124,7 @@ Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVEREXTRALARGE_DAT
 
 Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
 On thread 0:
-PAPI_TOT_CYC=82  550 007  781 
+PAPI_TOT_CYC=82550007781 
 PAPI_MEM_WCY=167 
 PAPI_L3_TCM = 67191951 
 PAPI_L2_DCM =2352714539 
