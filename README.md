@@ -7,6 +7,9 @@ recorded timing results.
 
 **The official results used in my thesis are in the `official-thesis` folder.**
 
+Note:
+* Keller is the name of our research machine with two E5-2620 chips
+* Goldwasser is the name of our intel core i5-6500 machine
 
 
 ##  Getting The Tools
