@@ -12,6 +12,18 @@ Note:
 * Goldwasser is the name of our intel core i5-6500 machine
 
 
+## Running The Codes
+
+```bash
+$ python3 run-timing.py filename-you-want
+```
+
+Play around with the configuration at the top to customize which tests run and
+how many times.
+
+
+
+
 ##  Getting The Tools
 
 The results will (obviously) vary by architecture.  Hopefully the results we
@@ -40,22 +52,18 @@ To get chapel working you need to install docker.
 
 For C programs:
 
+1. Edit the Makefile by reading the comments in there.
+
+2. Do this:
 
 ```bash
-$ pwd 
-<something>/iteratest/syr2k
 $ cp c-codes/syr2k.backup.c syr2k.c
 $ make syr2k PLY_SIZE=-DMEDIUM_DATASET 
-$ ./syr2k > original_output_on_med
+$ ./syr2k 2> original_output_on_med
 $ cp c-codes/syr2k.somethingelse.c syr2k.c
 $ make syr2k PLY_SIZE=-DMEDIUM_DATASET 
-$ ./syr2k > somethingelse_output_on_med
-$ diff  original_output_on_med somethingelse_output_on_med
-< GFLOPS outer time: <something>
-< GFLOPS inner time: <something>
----
-> GFLOPS outer time: <something>
-> GFLOPS inner time: <something>
+$ ./syr2k 2> somethingelse_output_on_med
+$ diff original_output_on_med somethingelse_output_on_med
 ```
 
 Note that we could replace MEDIUM with SMALL, MEDIUM, LARGE, HAVERLARGE to get
@@ -67,17 +75,6 @@ For Chapel programs:
 1. Uncomment the print statement at the bottom of the code.
 2. Compare the values with the output from the original syr2k Chapel version,
    which is correct.
-
-
-
-## Running the tests
-
-```bash
-$ python3 run-timing.py filename-you-want
-```
-
-Play around with the configuration at the top to customize which tests run and
-how many times.
 
 
 

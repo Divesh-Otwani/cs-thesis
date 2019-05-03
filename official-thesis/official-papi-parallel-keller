@@ -1,0 +1,138 @@
+uptime
+ 11:30:59 up 40 days, 20:10,  2 users,  load average: 0.00, 0.00, 0.07
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dotwani  pts/8    165.82.168.52    10:50    3.00s  0.41s  0.00s w
+spark5   pts/11   165.82.168.24    Tue00   34:39m  0.60s  0.26s -bash
+uptime over
+Starting timing results. 
+
+
+==================
+
+
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+On thread 0:
+PAPI_TOT_CYC=45249105248 
+PAPI_MEM_WCY=229210477 
+PAPI_L3_TCM =1008736290 
+PAPI_L2_DCM =1272155457 
+PAPI_L1_DCM =1645395982 
+
+
+
+======
+Compiled C Version c-codes/syr2k.dstblock3par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
+On thread 0:
+PAPI_TOT_CYC=94173715675 
+PAPI_MEM_WCY=397922483 
+PAPI_L3_TCM =2320371075 
+PAPI_L2_DCM =2616343209 
+PAPI_L1_DCM =3569785082 
+
+
+
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+On thread 0:
+PAPI_TOT_CYC=40390559949 
+PAPI_MEM_WCY=175963 
+PAPI_L3_TCM =852040505 
+PAPI_L2_DCM =1130258209 
+PAPI_L1_DCM =2266484683 
+
+
+
+======
+Compiled C Version c-codes/syr2k.limlam-par.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
+On thread 0:
+PAPI_TOT_CYC=85064277786 
+PAPI_MEM_WCY=156871 
+PAPI_L3_TCM =2041839135 
+PAPI_L2_DCM =2391525165 
+PAPI_L1_DCM =4884453142 
+
+
+
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+On thread 0:
+PAPI_TOT_CYC=38765297583 
+PAPI_MEM_WCY=18068 
+PAPI_L3_TCM =30555346 
+PAPI_L2_DCM =70149870 
+PAPI_L1_DCM =159327669 
+
+
+
+======
+Compiled C Version c-codes/syr2k.plutotileparallel.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
+On thread 0:
+PAPI_TOT_CYC=81366423108 
+PAPI_MEM_WCY=28344 
+PAPI_L3_TCM =70995708 
+PAPI_L2_DCM =149416070 
+PAPI_L1_DCM =715684636 
+
+
+
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVERLARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2200, m=    1800, Footprint    97.35 M,  Source FP ops=   26.15 G
+On thread 0:
+PAPI_TOT_CYC=39372187677 
+PAPI_MEM_WCY=207 
+PAPI_L3_TCM =29392258 
+PAPI_L2_DCM =1113562609 
+PAPI_L1_DCM =2249735895 
+
+
+
+======
+Compiled C Version c-codes/syr2k.pp-dst.c on size PLY_SIZE=-DHAVEREXTRALARGE_DATASET
+======
+
+
+Starting syr2k.c, n=    2700, m=    2500, Footprint    158.6 M,  Source FP ops=    54.7 G
+On thread 0:
+PAPI_TOT_CYC=82550007781 
+PAPI_MEM_WCY=167 
+PAPI_L3_TCM = 67191951 
+PAPI_L2_DCM =2352714539 
+PAPI_L1_DCM =4 952  251  796 
+
+
+
+==================
+Ended timing results. 
+
+

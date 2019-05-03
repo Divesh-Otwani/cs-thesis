@@ -2,63 +2,47 @@ import subprocess
 import sys
 
 """
-This program runs all interesting optimizations of syr2k with various sizes to
-collect timing results.
+#####################################################################
+This python script runs all interesting optimizations of syr2k
+with various sizes to collect timing results.
 
-# Requirements:
+Run this as 'python3 run-timing.py somefilename'.
 
-1.
-
-It must be run in the directory that contains 'syr2k.hllo.chpl', 'syr2k.h' and
-a folder named 'c-codes' that contains 5 versions of syr2k.
-
-2.
-
-There must be a utilities folder that is standard with polybench.
-
-
-# Instructions:
-
-Run this as 'python3 run-timing.py'.
-
-You might see some meaningless output. Ignore that.
-
-The relevant times will be in a file called 'current-timing-results-clean'.
-
-Enjoy!
+The relevant times will be in a file called 'somefilename-clean'.
+#####################################################################
 """
 
-# Number of Repeats
-repeatCount = 5
+# Number of Repeats of each test
+repeatCount = 1
+
+
+## Official
+# Official Parallel:
+#repeatCount = 5
+# Official Sequential:
+#repeatCount = 3
+
 
 # File to store output
 timeFileName = sys.argv[1]
 timeFile = open(timeFileName, "w")
 
+
+"""
+###########################################################
+             Choosing which codes to run
+###########################################################
+"""
+
 # Versions of C Code
 #cCodeInfixes = ["backup", "pluto", "plutotile",
 #        "plutotileparallel", "dstblock"]
 #cCodeInfixes = ["limlam", "plutotileparallel", "dstblock"]
-
-#cCodeInfixes = ["plutotileparallel", "dstblock"]
-#cCodeInfixes = ["dstblock", "dstblock2"]
-#cCodeInfixes = ["swap"]
-#cCodeInfixes = ["limlam"]
-#cCodeInfixes = ["dstblock3", "dstblock-timetile", "plutotileparallel"]
+#cCodeInfixes = ["plutotileparallel", "dstblock3par"]
+#cCodeInfixes = ["limlam-par"]
 #cCodeInfixes = ["dstblock3", "dstblock-tile"]
-#cCodeInfixes = ["limlamtile"]
-#cCodeInfixes = ["limlam", "limlam2"]
-#cCodeInfixes = ["dstblock3"]
 #cCodeInfixes = ["plutotileparallel"]
-
-
-## OFFICIAL: April 29th
-# Sequential:
-#cCodeInfixes = ["pluto", "dstblock"]
-# Parallel
-cCodeInfixes = [ "dstblock3par", "limlam-par", "plutotileparallel", "pp-dst"]
-
-cCodes = ["c-codes/syr2k." + i + ".c" for i in cCodeInfixes]
+#cCodeInfixes = ["pluto", "dstblock", "pluto2"]
 
 
 # Versions of Chapel Code
@@ -72,31 +56,73 @@ chplVersions = []
 
 
 
+# Official
+
+# Sequential:
+#cCodeInfixes = ["pluto", "dstblock"]
+# Parallel
+cCodeInfixes = [ "dstblock3par", "limlam-par", "plutotileparallel", "pp-dst"]
+
+
+cCodes = ["c-codes/syr2k." + i + ".c" for i in cCodeInfixes]
+
+
+
+
+"""
+###########################################################
+             Choosing which sizes to run
+###########################################################
+"""
+
 # Sizes for C Code
 #cArgs = ["SMALL", "MEDIUM", "LARGE", "HAVERLARGE", "HAVEREXTRALARGE"]
 #cArgs = ["SMALL", "MEDIUM"]
-#cArgs = ["HAVERLARGE", "HAVEREXTRALARGE"]
+cArgs = ["HAVERLARGE", "HAVEREXTRALARGE"]
 #cArgs = ["LARGE", "HAVERLARGE"]
+#cArgs = ["MEDIUM", "LARGE", "HAVERLARGE"]
 
 
-## Official April 29th
+
+# Official
+
 # Sequential
 #cArgs = ["MEDIUM", "LARGE", "HAVERLARGE", "EXTRALARGE"]
 # Parallel
-cArgs = ["MEDIUM","LARGE", "HAVERLARGE", "EXTRALARGE", "HAVEREXTRALARGE"]
+#cArgs = ["MEDIUM","LARGE", "HAVERLARGE", "EXTRALARGE", "HAVEREXTRALARGE"]
+
 
 cSizes = ["PLY_SIZE=-D" + i + "_DATASET" for i in cArgs]
 
 
 
 # Sizes for Chpl Codes (N,M)
+
 hsmall = ("hsmall", 24, 20)
 medium = ("medium", 240, 200)
 large = ("large",1200, 1000)
 hlarge = ("hlarge", 2200, 1800)
 hxlarge = ("hxlarge", 2700, 2500)
+
 #chplSizes = [hsmall, medium, large, hlarge, hxlarge]
 chplSizes = [hsmall]
+
+
+
+
+"""
+###########################################################
+
+
+                 Now, the actual testing.
+
+
+###########################################################
+"""
+
+
+
+
 
 
 def runcmd(command):
@@ -141,10 +167,10 @@ def cCompile(fileName, size):
 
 def cRun():
     for i in range(repeatCount):
-        runcmd(["./syr2k"])
+        #runcmd(["./syr2k"])
 
 # For sequential runs on keller:
-        #runcmd(["taskset","-c", "3", "./syr2k"])
+        runcmd(["taskset","-c", "3", "./syr2k"])
 
 
 
