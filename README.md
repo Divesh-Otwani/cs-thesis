@@ -1,8 +1,9 @@
 # Syr2k Optimizations in Chapel and C
 
+**Note: There are plenty of temp files and messy things; this repo has yet to be edited for presentation.**
+
 This page is a supplement to my undergraduate thesis, which is also included in
 this repository in [thesis.pdf](thesis.pdf).
-
 
 In this folder we have C and Chapel codes that are various optimizations
 of the dense matrix codes syr2k from PolyBench 4.0. We also have several
